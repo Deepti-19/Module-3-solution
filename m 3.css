@@ -1,0 +1,38 @@
+ 
+         body{
+            background-color: maroon;
+            font-size: 16px;
+        }
+        .navbar-brand{
+            padding-top: 1px;
+            
+             }
+       h4{
+           text-align: center;
+           color: whitesmoke;
+       }
+       
+       *{
+           margin:0px;
+           padding: 0px;
+           box-sizing: border-box;
+       }
+       nav ul li{
+           display: inline-block;
+       }    
+       .row{
+           margin-bottom: 15px;
+       }
+       .row>div{
+           border: 2px solid maroon;
+           background-color: orange;
+       }
+
+        
+       .container-fluid{
+           justify-content: center;
+           grid-gap:1rem;
+           grid-template-columns: repeat(auto-fit,minmax (400px,1fr));
+
+       }   
+   
